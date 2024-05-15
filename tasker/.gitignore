@@ -34,3 +34,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+../.CFUserTextEncoding
+        ../.DS_Store
+        ../.bash_history
+        ../.lesshst
+        ../.npm/
+        ../.python_history
+        ../.vscode/
+        ../.zprofile
+        ../.zsh_history
+        ../.zsh_sessions/
+        ../Desktop/
+        ../Documents/
+        ../Downloads/
+        ../Library/
+        ../Movies/
+        ../Music/
+        ../Pictures/
+        ../Public/
