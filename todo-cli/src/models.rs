@@ -6,6 +6,7 @@ pub struct Task {
     pub done: bool,
 }
 
+#[derive(Serialize, Deserialize. Debug)]
 pub struct TaskList { 
     pub tasks: Vec<Task>,
 }
