@@ -1,10 +1,16 @@
+use clap:: Parser;
+
+#[derive(Parser)]
+enum Commands {
+ Add { description: String },
+ List,
+ Done { id: u32 },
+ Delete { id: u32 },
+}
+
 fn main() {
-   enum Commands {
-    Add { description: String },
-    List,
-    Done { id: u32 },
-    Delete { id: u32 },
-   }
+
+   let cli = Cli:parse();
 
    match cli.command {
     Commands::Add { description } => commands::add(description),
